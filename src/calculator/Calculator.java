@@ -48,10 +48,10 @@ public class Calculator {
         String[] words = expression.split(" ");
         if ((words[0].equals("I") || words[0].equals("II") || words[0].equals("III") || words[0].equals("IV") || words[0].equals("V") || words[0].equals("VI") || words[0].equals("VII") || words[0].equals("VIII") || words[0].equals("IX") || words[0].equals("X")) &&
                 (words[2].equals("I") || words[2].equals("II") || words[2].equals("III") || words[2].equals("IV") || words[2].equals("V") || words[2].equals("VI") || words[2].equals("VII") || words[2].equals("VIII") || words[2].equals("IX") || words[2].equals("X"))) {
-            System.out.println(toRoman(result));
+            System.out.println("Результат: " + toRoman(result));
         } else if ((words[0].equals("1") || words[0].equals("2") || words[0].equals("3") || words[0].equals("4") || words[0].equals("5") || words[0].equals("6") || words[0].equals("7") || words[0].equals("8") || words[0].equals("9") || words[0].equals("10")) &&
                 (words[2].equals("1") || words[2].equals("2") || words[2].equals("3") || words[2].equals("4") || words[2].equals("5") || words[2].equals("6") || words[2].equals("7") || words[2].equals("8") || words[2].equals("9") || words[2].equals("10"))) {
-            System.out.println(result);
+            System.out.println("Результат: " + result);
         } else {
             System.out.println("Ошибка, римские и арабские цифры можно только по отдельности.");
         }

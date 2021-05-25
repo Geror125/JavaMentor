@@ -7,7 +7,7 @@ public class CalculatorTest {
         Scanner scan = new Scanner(System.in);
         Calculator calculator = new Calculator();
 
-        System.out.println("Введите выражение: ");
+        System.out.print("Введите выражение: ");
         calculator.setExpression(scan.nextLine());
         calculator.calculate();
     }
